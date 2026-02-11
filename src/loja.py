@@ -128,7 +128,11 @@ class SaborRapidoApp:
                 "Erro", "Preencha ambos os campos corretamente.")
 
 
-if __name__ == "__main__":
+def iniciar_app():
+    """Inicializa e executa a aplicação Tkinter."""
     root = tk.Tk()
     app = SaborRapidoApp(root)
     root.mainloop()
+
+if __name__ == "__main__":
+    iniciar_app()
